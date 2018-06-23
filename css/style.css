@@ -8,12 +8,6 @@ body {
     background-repeat: repeat;
 }
 
-a:link,
-a:visited {
-    color: #999999;
-    text-decoration: none;
-}
-
 hr {
     height: 3px;
     border: none;
@@ -87,6 +81,12 @@ button {
     font-weight: lighter;
 }
 
+.navLinks>a:link,
+.navLinks>a:visited {
+    color: #999999;
+    text-decoration: none;
+}
+
 .main {
     width: 960px;
     margin: auto;
@@ -153,22 +153,37 @@ button {
     align-items: flex-end;
 }
 
-.port1,
-.port2,
-.port3,
-.port4,
-.port5 {
-    width: auto;
+.port1 a:link,
+.port1 a:visited {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18pt;
+    text-decoration: none;
 }
 
-.port1,
-.port3 {
+.port1 {
+    width: auto;
     margin-right: 5%;
 }
 
-.port2,
-.port4 {
+.port2 {
+    width: auto;
     margin-right: 0;
+}
+
+.port3 {
+    width: auto;
+    margin-right: 5%;
+}
+
+.port4 {
+    width: auto;
+    margin-right: 0;
+}
+
+.port5 {
+    width: auto;
+    margin-right: 5%;
 }
 
 .port1>p,
@@ -199,9 +214,6 @@ button {
     font-size: 14pt;
     color: #777777;
 }
-
-
-
 
 /* PAGE RESPONSIVENESS */
 @media only screen and (max-width: 980px) {
