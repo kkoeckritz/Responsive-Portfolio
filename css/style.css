@@ -153,8 +153,8 @@ button {
     align-items: flex-end;
 }
 
-.port1 a:link,
-.port1 a:visited {
+.content a:link,
+.content a:visited {
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 18pt;
